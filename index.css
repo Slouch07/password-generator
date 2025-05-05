@@ -36,7 +36,7 @@ h2 {
   padding-left: 50px;
 }
 
-button {
+#btn-generate {
   margin-left: 50px;
   margin-top: 25px;
   font-family: "Inter", sans-serif;
@@ -47,4 +47,33 @@ button {
   padding: 9px 15px;
   border: none;
   border-radius: 6px;
+  box-shadow: 0px 1px 2px #000000;
+}
+
+hr {
+  width: 446px;
+  border-top: 2px solid #2f3e53;
+  margin: 35px auto;
+  border-color: #2f3e53;
+}
+
+p {
+  margin-left: 50px;
+  color: white;
+}
+
+.password {
+  display: inline-block;
+  background-color: #273549;
+  width: 211px;
+  height: 39px;
+  border-radius: 6px;
+}
+
+.pwd-one {
+  margin-left: 50px;
+}
+
+.pwd-two {
+  margin-left: 25px;
 }

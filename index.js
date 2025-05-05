@@ -91,3 +91,9 @@ const characters = [
   "?",
   "/",
 ];
+
+function test() {
+  let buttonEl = document.getElementById("btn-click");
+  buttonEl.textContent = "Button Clicked";
+  console.log("Button Clicked");
+}
