@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  background-color: #1c1c1c;
+}
+
+#main-container {
+  background-color: #1f2937;
+  width: 550px;
+  height: 550px;
+  margin: 50px auto;
+}
+
+#heading-text {
+  font-family: Karla, serif;
+  font-size: 40px;
+  font-weight: ExtraBold;
+}
