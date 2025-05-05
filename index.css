@@ -28,3 +28,23 @@ h1 {
 #h1-green {
   color: #55f991;
 }
+
+h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #d5d4d8;
+  padding-left: 50px;
+}
+
+button {
+  margin-left: 50px;
+  margin-top: 25px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #10b981;
+  color: #ffffff;
+  padding: 9px 15px;
+  border: none;
+  border-radius: 6px;
+}
