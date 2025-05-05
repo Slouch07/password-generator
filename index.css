@@ -61,11 +61,6 @@ hr {
   border-color: #2f3e53;
 }
 
-p {
-  margin-left: 50px;
-  color: white;
-}
-
 #password-container {
   display: flex;
   width: 446px;
