@@ -92,8 +92,22 @@ const characters = [
   "/",
 ];
 
-function test() {
-  let buttonEl = document.getElementById("btn-click");
-  buttonEl.textContent = "Button Clicked";
-  console.log("Button Clicked");
+let passwordGenerated = false;
+
+function generatePasswords() {
+  if (passwordGenerated === false) {
+    let passwordOneEl = document.getElementById("generated-pwd-one");
+    let passwordTwoEl = document.getElementById("generated-pwd-two");
+
+    for (let i = 0; i < 15; i++) {
+      let randomIndex = Math.floor(Math.random() * characters.length);
+      passwordOneEl.textContent += characters[randomIndex];
+    }
+
+    for (let i = 0; i < 15; i++) {
+      let randomIndex = Math.floor(Math.random() * characters.length);
+      passwordTwoEl.textContent += characters[randomIndex];
+    }
+    passwordGenerated = true;
+  }
 }
