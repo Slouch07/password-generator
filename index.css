@@ -10,8 +10,21 @@ body {
   margin: 50px auto;
 }
 
-#heading-text {
-  font-family: Karla, serif;
-  font-size: 40px;
-  font-weight: ExtraBold;
+h1 {
+  width: 354px;
+  height: 80px;
+  font-family: "Karla", sans-serif;
+  font-size: 39px;
+  font-weight: 800;
+  letter-spacing: -2.5%;
+  padding-top: 100px;
+  padding-left: 50px;
+}
+
+#h1-white {
+  color: #ffffff;
+}
+
+#h1-green {
+  color: #55f991;
 }
